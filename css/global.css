@@ -1,0 +1,153 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    /* Colors */
+    --primary-color: #b900ff;
+    /* Animations */
+    --transition: ease 300ms;
+}
+
+/* Global */
+html,
+body {
+    color: white;
+    font-family: sans-serif;
+    background-color: #050a13;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input {
+    color: inherit;
+    caret-color: var(--primary-color);
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* Custom Selection */
+::selection {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+/* Container */
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Main */
+main {
+    display: flex;
+    height: 100dvh;
+    align-items: center;
+}
+
+/* Footer */
+footer {
+    margin: 0 auto;
+    max-width: 750px;
+    border-radius: 4px;
+    background-color: #141c2d;
+    box-shadow: 0 0 10px black;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p {
+    gap: 8px;
+    opacity: .6;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+}
+
+footer ul {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px var(--primary-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
