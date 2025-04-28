@@ -2,7 +2,11 @@
 
 A simple and responsive login/signup system built using **HTML**, **CSS**, and **JavaScript**.
 
-## <a href="https://mustafa-sayed-m.github.io/Smart-Login-System/index.html">Live Demo</a>
+## 📸 Preview
+
+<a href='https://mustafa-sayed-m.github.io/Smart-Login-System/index.html' target='_blank'>
+    <img src='./preview.png' alt='Preview Image' />
+</a>
 
 ## 📁 Project Structure
 
