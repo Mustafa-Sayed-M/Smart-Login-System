@@ -8,6 +8,8 @@ A simple and responsive login/signup system built using **HTML**, **CSS**, and *
     <img src='./preview.png' alt='Preview Image' />
 </a>
 
+`click on image to go live demo`
+
 ## 📁 Project Structure
 
 ```sh
